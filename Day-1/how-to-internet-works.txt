@@ -1,0 +1,16 @@
+Title : How the Internet Works 
+
+Key Points :
+1. The internet is a global network of interconnected computers and devices, not located in a single place. It is a "web of wires" spread across the world.
+
+2. When you type something on Google, your device (client) is connected to your home Wi-Fi, which is connected to the internet through physical wires/cables.
+
+3. The device sends a "packet" containing the information you typed (e.g.[6] "India") to the DNS (Domain Name System) server. The DNS server translates the domain name (Google.com) into the corresponding IP address.
+
+4. The packet is then routed through a network of routers, which direct the packet to the correct destination (the Google servers) based on the IP address.
+
+5. The Google servers receive the packet, process the request (search for "India"), and send the search results back to the client device.
+
+6. The packet travels back through the network of routers to reach the client device, which then displays the search results.
+
+7. This entire process of sending a request, routing it, and receiving the response is how the internet works to enable web browsing and online services.

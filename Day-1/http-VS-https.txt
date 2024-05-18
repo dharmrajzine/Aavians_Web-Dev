@@ -1,0 +1,14 @@
+Title: http vs https | How SSL (TLS) encryption works in networking ?
+
+Let's discusses the differences between the HTTP and HTTPS protocols, and how SSL/TLS encryption works to make HTTPS more secure than HTTP.
+
+Key points:
+- HTTP sends and receives data in plain text, making it insecure. HTTPS adds an additional layer of security through SSL/TLS encryption.
+
+- HTTPS uses asymmetric encryption (public/private keys) and symmetric encryption (shared session keys) to encrypt data during transmission.
+
+- The server sends its public key to the client, the client generates a symmetric session key and encrypts it with the server's public key. The server then decrypts the session key using its private key.
+
+- From that point on, the client and server communicate using the shared symmetric session key for encryption and decryption.
+
+- HTTPS is more secure than HTTP, but also slightly heavier and slower due to the additional encryption/decryption overhead.
