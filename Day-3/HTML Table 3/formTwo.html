@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Two</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <h1>Job Application</h1>
+
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+
+            <label for="emailID">Email:</label>
+            <br>
+            <input type="email" name="emailID" id="emailID">
+            <br>
+            <br>
+
+            <label for="phoneNumber">Phone No:</label>
+            <br>
+            <input type="tel" name="phoneNumber" id="phoneNumber">
+            <br>
+            <br>
+
+            <label for="fileselect">Resume:</label>
+            <br>
+            <input type="file" name="fileselect" id="fileselect">
+            <br>
+            <br>
+
+            <label for="counter">Experiance (in years):</label>
+            <br>
+            <input type="number" name="counter" id="counter" min="0" max="30">
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Skills:</legend>
+                <input type="checkbox" name="skills" id="html">
+                <label for="skills">HTML</label>
+                <br>
+                <input type="checkbox" name="skills" id="css">
+                <label for="skills">CSS</label>
+                <br>
+                <input type="checkbox" name="skills" id="javaScript">
+                <label for="skills">JavaScript</label>
+            </fieldset>
+            <br>
+            <br>
+
+            <label for="education">Highest Education:</label>
+            <br>
+            <select name="education" id="education">
+                <option value="highSchool">High School</option>
+                <option value="bachlour">Bachlours</option>
+                <option value="master">Masters</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="availability">Availability:</label>
+            <br>
+            <input type="radio" name="availability" id="fullTime">
+            <label for="availability">Full-Time</label>
+            <br>
+            <input type="radio" name="availability" id="partTime">
+            <label for="availability">Part-Time</label>
+            <br>
+            <br>
+
+            <label for="textaria">Additional Comments:</label>
+            <br>
+            <textarea name="text" id="textarea" cols="30" rows="2"></textarea>
+
+            <br>
+            <br>
+            <input type="submit" name="btn" id="btn" value="Submit Application">
+        </fieldset>
+    </form>
+</body>
+
+</html>

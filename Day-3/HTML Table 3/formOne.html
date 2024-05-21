@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br />
+        <br />
+        <label for="emailID">Email</label>
+        <input type="email" name="emaiID" id="emailID">
+        <br />
+        <br />
+        <label for="phoneNumber">Phone</label>
+        <input type="tel" name="phoneNumber" id="phoneNumber">
+        <br />
+        <br />
+
+        <label for="occupationType">Occupation</label>
+        <select name="occupationType" id="occupationType">
+            <option value="student">Student</option>
+            <option value="professional">professional</option>
+            <option value="other">Other</option>
+        </select>
+
+        <br>
+        <br>
+        <fieldset>
+            <legend>Topics of Interest</legend>
+            <input type="checkbox" name="topic" id="html">
+            <label for="topic">HTML</label>
+            <input type="checkbox" name="topic" id="css">
+            <label for="topic">CSS</label>
+            <input type="checkbox" name="topic" id="javaScript">
+            <label for="topic">JavaScript</label>
+        </fieldset>
+        <br>
+        <label for="textarea">Comments</label>
+        <br>
+        <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+        <br />
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
