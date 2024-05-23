@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --primary-color: purple;
+            --custom-width: 330px;
+        }
+
+        .container {
+            background-color: beige;
+            height: 650px;
+            border: 2px solid rgb(107, 4, 85);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            background-color: violet;
+            width: var(--custom-width);
+            height: 330px;
+            border: 2px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+            /* box-shadow: 10px 15px violet; */
+            box-shadow: 10px 15px 70px rgb(73, 21, 55);
+            /*  box-shadow: 10px 15px 50px 10px violet; */
+            /* box-shadow: inset 10px 15px 100px purple; */
+            /* box-shadow: 10px 15px 50px red, 15px 8px 50px green; */
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="sumedh-logo.png" />
+            <h2 id="head1">Welcome to MyWorld</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro sed, provident itaque vero possimus ullam
+                soluta quod est! Repellendus quo recusandae, cupiditate mollitia minima consequatur maiores a optio
+                natus molestiae sed iure in magnam eum! Fugit nemo culpa consectetur nesciunt tempore labore nam in
+                itaque rerum illum earum, consequatur cum.</p>
+        </div>
+    </div>
+</body>
+
+</html>
