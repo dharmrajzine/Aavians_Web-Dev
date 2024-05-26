@@ -91,31 +91,49 @@ body {
     display: inline;
 }
 
+/* Center div CSS */
+
 .div-center {
     width: 75vw;
-    /* background-color: blue; */
-    padding: 10px 15px;
+    padding: 10px 10px;
     position: relative;
 }
 
 .search-box-container {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    background: var(--secondary-bg-color);
+    padding: 5px;
+    width: 72vw;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px #292929;
+    margin: 10px;
+    position: relative;
+    /* transition: width 1.5s; */
 }
 
-.search-box {
-    width: 70vw;
-    padding: 10px 30px 8px 10px;
-    border: 2px solid #ccc;
-    border-radius: 25px;
+.input {
+    margin: 10px 40px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    background: transparent;
     outline: none;
-    font-size: 16px;
-    background-color: #FFFFFF;
+    transition-delay: 0.5s;
 }
 
-.search-icon {
-    font-size: 18px;
+.magnifier {
+    position: absolute;
+    left: 15px;
+    width: 25px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    /* color: #ffa31a; */
+}
+
+.cloud-drives-details {
     padding: 0 10px;
 }
 
@@ -123,21 +141,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 8px 10px;
 }
 
 .add-btn {
-    padding: 8px 20px;
+    padding: 6px 20px;
     border: none;
     background-color: var(--add-btn-color);
     color: #ffffff;
     border-radius: 6px;
-}
-
-.driver-container {
-    padding: 8px 8px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .drive-1 {
@@ -147,7 +159,6 @@ body {
     padding: 10px 10px;
     display: flex;
     flex-direction: column;
-    border-radius: 6px;
     border-radius: 6px;
 }
 
@@ -166,7 +177,7 @@ body {
 }
 
 .progress {
-    margin-top: 5px;
+    /* margin-top: 5px; */
     position: relative;
 }
 
@@ -176,24 +187,32 @@ input[type="range"] {
 }
 
 .subtitlee {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
-    /* margin-bottom: 7px; */
+    margin-bottom: 5px;
 }
 
 .dsize {
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
-    /* margin-top: 7px; */
 }
 
+.driver-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Folders Container */
+.folders-details {
+    padding: 10px 10px;
+}
 
 .folder-viewer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
-    /* padding: 0; */
+    margin-bottom: 8px;
 }
 
 .viewers {
@@ -208,7 +227,6 @@ input[type="range"] {
     border: solid white 2px;
     margin-right: 2px;
     position: relative;
-    background: teal;
     background-size: cover;
     z-index: 4;
 }
@@ -223,10 +241,14 @@ input[type="range"] {
     left: -20px;
 }
 
+/* Recent Files Div */
+.tableDetails {
+    padding: 10px 10px;
+}
+
 .table {
     border-collapse: collapse;
     font-size: 14px;
-    /* color: #323131; */
     width: 72vw;
     margin-top: 10px;
 }
@@ -240,8 +262,12 @@ input[type="range"] {
 .table th,
 td {
     padding: 3px 15px;
-
     border-radius: 6px;
+}
+
+.table tbody {
+    background: #FFFFFF;
+
 }
 
 .table tbody tr {
@@ -349,7 +375,7 @@ td {
 }
 
 .title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--title-color);
 }
