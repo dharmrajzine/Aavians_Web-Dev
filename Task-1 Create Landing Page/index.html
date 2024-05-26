@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task -1 Create Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="side-navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="#"><i class="fa-brands fa-microsoft"></i></a></li>
+                <li class="navbar-item"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                <li class="navbar-item"><a href="#"><i class="fa-solid fa-cloud"></i></a></li>
+                <li class="navbar-item"><a href="#"><i class="fa-solid fa-chart-simple"></i></a></li>
+                <li class="navbar-item"><a href="#"><i class="fa-solid fa-envelope-open"></i></a></li>
+                <li class="navbar-item"><a href="#"><i class="fa-regular fa-message"></i></a></li>
+                <li class="navbar-item"><a href="#"><i class="fa-solid fa-gear"></i></a></li>
+            </ul>
+        </nav>
+        <div class="div-center">
+            <div class="search-box-container">
+                <span><i class="fas fa-search search-icon"></i></span>
+                <span><input class="search-box" type="text" placeholder="Search Here..."></span>
+            </div>
+            <div class="cloud-drives-details">
+                <div class="heading">
+                    <h2 class="title">Cloud Drives</h2>
+                    <button class="add-btn">Add New</button>
+                </div>
+                <div class="driver-container">
+                    <div class="drive-1">
+                        <div class="icon">
+                            <img src="icons/google-drive.png" />
+                        </div>
+                        <h3 class="subtitlee">Cloud App - (A)</h3>
+                        <div class="progress">
+                            <input type="range" id="range" min="0" max="100" />
+                        </div>
+                        <div class="dsize">
+                            <p>12.5GB</p>
+                            <p>15GB</p>
+                        </div>
+                    </div>
+                    <div class="drive-1">
+                        <div class="icon">
+                            <img src="icons/dropbox.png" />
+                        </div>
+                        <h3 class="subtitlee">Cloud App - (B)</h3>
+                        <div class="progress">
+                            <input type="range" id="range" min="0" max="100" />
+                        </div>
+                        <div class="dsize">
+                            <p>12.5GB</p>
+                            <p>15GB</p>
+                        </div>
+                    </div>
+                    <div class="drive-1">
+                        <div class="icon">
+                            <img src="icons/icloud.png" />
+                        </div>
+                        <h3 class="subtitlee">Cloud App - (C)</h3>
+                        <div class="progress">
+                            <input type="range" id="range" min="0" max="100" />
+                        </div>
+                        <div class="dsize">
+                            <p>12.5GB</p>
+                            <p>15GB</p>
+                        </div>
+                    </div>
+                    <div class="drive-1">
+                        <div class="icon">
+                            <img src="icons/dropbox.png" />
+                        </div>
+                        <h3 class="subtitlee">Cloud App - (D)</h3>
+                        <div class="progress">
+                            <input type="range" id="range" min="0" max="100" />
+                        </div>
+                        <div class="dsize">
+                            <p>12.5GB</p>
+                            <p>15GB</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="folders-details">
+                <div class="heading">
+                    <h2 class="title">Folders</h2>
+                    <!-- <button class="add-btn">Add New</button> -->
+                </div>
+                <div class="driver-container">
+                    <div class="drive-1">
+                        <div class="folder-viewer">
+                            <div class="icon">
+                                <img src="icons/open-folder.png" />
+                            </div>
+                            <div class="viewers">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                                <img src="https://images.unsplash.com/photo-1534008757030-27299c4371b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                                <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                            </div>
+                        </div>
+                        <h3 class="subtitlee">Project Files</h3>
+                        <p>5.2GB</p>
+                    </div>
+                    <div class="drive-1">
+                        <div class="folder-viewer">
+                            <div class="icon">
+                                <img src="icons/open-folder.png" />
+                            </div>
+                            <div class="viewers">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                                <img src="https://images.unsplash.com/photo-1534008757030-27299c4371b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                                <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                            </div>
+                        </div>
+                        <h3 class="subtitlee">Project Files</h3>
+                        <p>5.2GB</p>
+                    </div>
+                    <div class="drive-1">
+                        <div class="folder-viewer">
+                            <div class="icon">
+                                <img src="icons/open-folder.png" />
+                            </div>
+                            <div class="viewers">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                                <img src="https://images.unsplash.com/photo-1534008757030-27299c4371b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                                <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                            </div>
+                        </div>
+                        <h3 class="subtitlee">Project Files</h3>
+                        <p>5.2GB</p>
+                    </div>
+                    <div class="drive-1">
+                        <div class="folder-viewer">
+                            <div class="icon">
+                                <img src="icons/open-folder.png" />
+                            </div>
+                            <div class="viewers">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                                <img src="https://images.unsplash.com/photo-1534008757030-27299c4371b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                                <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="views">
+                            </div>
+                        </div>
+                        <h3 class="subtitlee">Project Files</h3>
+                        <p>5.2GB</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="tableDetails">
+                <div class="heading">
+                    <h2 class="title">Recent Files</h2>
+                </div>
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Shared</th>
+                                <th>Date Added</th>
+                                <th>File Size</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <div class="row-details">
+                                <tr>
+                                    <td>
+                                        <div class="first-column">
+                                            <div class="icon">
+                                                <img src="icons/docs.png" />
+                                            </div>
+                                            <h4 class="subtitlee">Project Discussion</h4>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>Private</p>
+                                    </td>
+                                    <td>
+                                        <p>Just Now</p>
+                                    </td>
+                                    <td>
+                                        <div class="last-coloum">
+                                            <p>2.5GB</p>
+                                            <span>...</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="first-column">
+                                            <div class="icon">
+                                                <img src="icons/music-player.png" />
+                                            </div>
+                                            <h4 class="subtitlee">Client Interview</h4>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>2 People</p>
+                                    </td>
+                                    <td>
+                                        <p>Today, 7.00 PM</p>
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <div class="last-coloum">
+                                            <p>2.5GB</p>
+                                            <span>...</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="first-column">
+                                            <div class="icon">
+                                                <img src="icons/open-folder.png" />
+                                            </div>
+                                            <h4 class="subtitlee">Project Files</h4>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>Public Shared</p>
+                                    </td>
+                                    <td>
+                                        <p>Jan 27,2019</p>
+                                    </td>
+                                    <td>
+                                        <div class="last-coloum">
+                                            <p>2.5GB</p>
+                                            <span>...</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="first-column">
+                                            <div class="icon">
+                                                <img src="icons/open-folder.png" />
+                                            </div>
+                                            <h4 class="subtitlee">Project Files</h4>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>Devloper Handover</p>
+                                    </td>
+                                    <td>
+                                        <p>Jan 27,2019</p>
+                                    </td>
+                                    <td>
+                                        <div class="last-coloum">
+                                            <p>2.5GB</p>
+                                            <span>...</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="first-column">
+                                            <div class="icon">
+                                                <img src="icons/image.png" />
+                                            </div>
+                                            <h4 class="subtitlee">Preview Image</h4>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p>3 People</p>
+                                    </td>
+                                    <td>
+                                        <p>Jan 27,2019</p>
+                                    </td>
+                                    <td>
+                                        <div class="last-coloum">
+                                            <p>2.5GB</p>
+                                            <span>...</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </div>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="div-right">
+            <div class="right-div-top">
+                <div class="profile-details">
+                    <div class="img-div">
+                        <!-- <img src="https://images.unsplash.com/photo-1509839862600-309617c3201e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""> -->
+                    </div>
+                    <h2 class="profile-name">Jhon Doe.</h2>
+                    <p class="email">example@gmail.com</p>
+                    <span class="data-size"><small>49.5GB</small> of <small>500GB</small></span>
+                    <button class="upgrade-btn">Upgrade Plan</button>
+                </div>
+            </div>
+            <div class="right-div-center">
+                <h2 class="title">Files</h2>
+
+                <div class="files-container">
+                    <div class="file-content">
+                        <div class="icon">
+                            <img src="icons/docs.png" />
+                        </div>
+                        <div class="subtitle">
+                            <h4>Documents</h4>
+                            <p>4.225 Files</p>
+                        </div>
+                    </div>
+                    <div class="size">
+                        <p>4.2GB</p>
+                    </div>
+                </div>
+                <div class="files-container">
+                    <div class="file-content">
+                        <div class="icon">
+                            <img src="icons/music-player.png" />
+                        </div>
+                        <div class="subtitle">
+                            <h4>Sound & Music</h4>
+                            <p>4.225 Files</p>
+                        </div>
+                    </div>
+                    <div class="size">
+                        <p>4.2GB</p>
+                    </div>
+                </div>
+                <div class="files-container">
+                    <div class="file-content">
+                        <div class="icon">
+                            <img src="icons/digital-campaign.png" />
+                        </div>
+                        <div class="subtitle">
+                            <h4>Multimedia</h4>
+                            <p>4.225 Files</p>
+                        </div>
+                    </div>
+                    <div class="size">
+                        <p>4.2GB</p>
+                    </div>
+                </div>
+                <div class="files-container">
+                    <div class="file-content">
+                        <div class="icon">
+                            <img src="icons/image.png" />
+                        </div>
+                        <div class="subtitle">
+                            <h4>Images</h4>
+                            <p>4.225 Files</p>
+                        </div>
+                    </div>
+                    <div class="size">
+                        <p>4.2GB</p>
+                    </div>
+                </div>
+                <div class="files-container">
+                    <div class="file-content">
+                        <div class="icon">
+                            <img src="icons/open-folder.png" />
+                        </div>
+                        <div class="subtitle">
+                            <h4>Other Files</h4>
+                            <p>4.225 Files</p>
+                        </div>
+                    </div>
+                    <div class="size">
+                        <p>4.2GB</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-div-bottom">
+                <div class="drop-file-div">
+                    <!-- <i class="fa-solid fa-cloud-arrow-up dfile"></i> -->
+                    <img class="dfile" src="icons/cloud-computing.png" alt="">
+                    <h2 class="title">Drag and drop your files</h2>
+                    <p>OR</p>
+                    <button class="browse-btn">Browse Files</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
