@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08 Exercise</title>
+    <style>
+        .text1{
+            display: block;
+            padding: 5px 20px;
+            border-radius: 3px;
+        }
+        .email1{
+            margin-top: 5px;
+            display: block;
+            padding: 5px 20px;
+            border-radius: 3px;
+        }
+        p{
+            width: 50%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .yes, .no{
+            display: inline-block;
+            vertical-align: middle;
+            padding: 5px 10px;
+        }
+        .gimg{
+            width: 250px;
+        }
+        .gtext{
+            padding: 5px 25px;
+            font-size: 16px;
+            border-radius: 18px;
+        }
+        .container{
+            background-color: #fff;
+            width: 60%;
+            height: 200px;
+            display: grid;
+            border: 1px solid rgb(115, 113, 113);
+            padding: 15px 15px; 
+            background-color: whitesmoke;
+            margin: 0;
+        }
+        input{
+            margin-right: 6px;
+            padding: 15px 15px;
+            border-radius: 5px;
+            border: 0.5px solid rgb(141, 139, 139);
+            font-size: 16px;
+        }
+        .email{
+            width: 92%;
+        }
+        .signup{
+            width: 100%;
+            border: none;
+            font-weight: bold;
+            font-size: 16px;
+            color: #fff;
+            background-color: rgb(44, 44, 253);
+            border-radius: 19px;
+
+        }
+        .uberContainer{
+            font-family: arial;
+            margin: 5px;
+        }
+        .inputt{
+            display: grid;
+            margin: 8px;
+        }
+        .reqbut, .sfl{
+            margin-top: 15px;
+            padding: 15px 30px;
+            border: none;
+            font-size: 18px;
+        }
+        .reqbut{
+            color: #fff;
+            background-color: black;
+        }
+        .one{
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <input type="text" class="text1" placeholder="First name">
+        <input type="email" class="email1" placeholder="Email">
+    </div>
+    <hr>
+    <div>
+        <p>Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+    </div>
+    <hr>
+    <img class="gimg" src="https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/streams/2013/March/130326/1C6639340-google-logo.jpg" alt="">
+    <input class="gtext" type="text" placeholder="Search Google or type a URL">
+<hr>
+    <div class="container">
+        <div>
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="First name">
+        </div>
+        <div>
+            <input class="email" type="email" placeholder="Email">
+        </div>
+        <button class="signup">Sign Up</button>
+    </div>
+    <hr>
+    <div class="uberContainer">
+        <h1>Request a ride now</h1>
+        <div class="inputt">
+            <input type="text" class="one" placeholder="Enter pickup location">
+            <input type="text" placeholder="Enter destination">
+        </div>
+        <div class="buttons">
+            <button class="reqbut">Request now</button>
+            <button class="sfl">Schedule for later</button>
+        </div>
+    </div>
+</body>
+</html>

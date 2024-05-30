@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 Exercise</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+        .one{
+            background-color: blueviolet;
+            width: 200px;
+            /* height: 30px; */
+        }
+        .two{
+            background-color: aqua;
+            width: 75px;
+            /* height: 30px; */
+        }
+        .container-2{
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+        .onee{
+            background-color: #d2c1c1;
+        }
+        .twoo{
+            background-color: #f18282;
+        }
+        .three{
+            background-color: #fe4747;
+        }
+        .container-3{
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+        .four{
+            background-color: #f90909;
+        }
+        .bigprofile{
+            height: 200px;
+            width: 200px;
+        }
+        .smallprofile{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+        }
+        .profile{
+            box-shadow: 0 10px 10px rgb(46, 164, 79);
+            margin-bottom: 10px;
+            
+        }
+        .container-4{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap: 15px;
+        }
+        .info{
+            display: grid;
+            grid-template-columns: 50px 150px;
+            align-items: center;
+            column-gap: 5px;
+            margin-left: 10px;
+        }
+        .btn{
+            padding: 10px 15px;
+            margin-left: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(6, 6, 249);
+            color: #fff;
+            margin-bottom: 10px
+        }
+        .title{
+            font-size: 18px;
+            font-weight: bold;
+            font-family: arial;
+            margin-bottom: 0;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        .subtitle{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">
+            200px
+        </div>
+        <div class="two">
+            75px
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="container-2">
+        <div class="onee">
+            50px
+        </div>
+        <div class="twoo">
+            1fr
+        </div>
+        <div class="three">
+            75px
+        </div>
+    </div>
+    <hr><hr>
+    <div class="container-3">
+        <div class="onee">
+            50px
+        </div>
+        <div class="twoo">
+            1fr
+        </div>
+        <div class="three">
+            75px
+        </div>
+        <div class="four">
+            75px
+        </div>
+        <div class="onee">
+            50px
+        </div>
+        <div class="twoo">
+            1fr
+        </div>
+        <div class="three">
+            75px
+        </div>
+        <div class="four">
+            75px
+        </div>
+        <div class="onee">
+            50px
+        </div>
+        <div class="twoo">
+            1fr
+        </div>
+        <div class="three">
+            75px
+        </div>
+        <div class="four">
+            75px
+        </div>
+        <div class="onee">
+            50px
+        </div>
+        <div class="twoo">
+            1fr
+        </div>
+        <div class="three">
+            75px
+        </div>
+        <div class="four">
+            75px
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="container-4">
+
+            <div class="profile">
+               
+                <img class="bigprofile" src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw">
+                <p class="title">Oliver</p>
+                <div class="info">
+                    <img src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" alt="" class="smallprofile">
+                    <p class="subtitle">3 mutual friends</p>
+                </div>
+                 <button class="btn">Add Friend</button>
+            </div>
+            <div class="profile">
+                <img class="bigprofile" src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw">
+                <p class="title">Oliver</p>
+                <div class="info">
+                    <img src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" alt="" class="smallprofile">
+                    <p class="subtitle">3 mutual friends</p>
+                </div>
+                 <button class="btn">Add Friend</button>
+            </div>
+            <div class="profile">
+                <img class="bigprofile" src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw">
+                <p class="title">Oliver</p>
+                <div class="info">
+                    <img src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" alt="" class="smallprofile">
+                    <p class="subtitle">3 mutual friends</p>
+                </div>
+                 <button class="btn">Add Friend</button>
+            </div>
+    </div>
+</body>
+</html>

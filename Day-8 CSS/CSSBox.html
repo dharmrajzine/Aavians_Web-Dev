@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        a{
+            font-size: 20px;
+        }
+        .back{
+            /* height: 38px;
+            width: 100px; */
+            padding: 10px 20px;
+            border: 1.5px solid black;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .next{
+            /* height: 38px;
+            width: 100px; */
+            padding: 10px 20px;
+            border: 1.5px solid black;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .stretch{
+            padding: 10px 20px;
+            border: none;
+            background-color: green;
+            color: #fff;
+            border-radius: 3px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .stretch:hover{
+            transform: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="back">Back</button>
+        <a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a>
+        <button class="next">Next</button>
+    </div>
+    <br>
+    <button class="stretch">Stretch</button>
+</body>
+</html>

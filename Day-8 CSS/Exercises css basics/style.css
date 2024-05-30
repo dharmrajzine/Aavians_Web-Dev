@@ -1,0 +1,101 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    /* margin: 0; */
+}
+main{
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.uberButton{
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.amazonButton{
+    background-color: rgb(255, 216, 20);
+    height: 36px;
+    width: 200px;
+    font-weight: 400;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.githubButton{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.getStartedButton{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.downloadButton{
+    height: 36px;
+    width: 100px;
+    border: 2px solid rgb(108, 117, 125);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.applyButton{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    height: 36px;
+    width: 250px;
+    border-radius: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.save{
+    color: rgb(9, 128, 255);
+    height: 36px;
+    width: 100px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(9, 128, 255);
+    cursor: pointer;
+}
+.cart{
+    margin-left: 10px;
+    display: inline;
+}
+h4{
+    color: rgb(0, 118, 0);
+}
+.add{
+    background-color: rgb(255, 216, 20);
+    border-radius: 18px;
+    height: 36px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buy{
+    background-color: rgb(255, 164, 28);
+    border-radius: 18px;
+    height: 36px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
