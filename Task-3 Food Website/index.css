@@ -561,15 +561,17 @@ margin-bottom: 40px;
     width: 100%;
     height: 100vh;
     background-color: #FFDF6C;
+    
 }
 .group6 .para{
     font-size: 29px;
     color: #333d01;
     font-weight: 400;
     text-align: right;
+    margin-top: 20px;
+    padding-right: 6%;
 }
 .group6 .next-btn{
-    /* border: 3px solid #333d01; */
     border: none;
     border-radius: 50px;
     padding: 5px 50px;
@@ -578,20 +580,59 @@ margin-bottom: 40px;
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 500;
+    margin-top: 50px;
+    margin-left: 83%;
 }
 .group6-parts{
     display: flex;
 }
 .group6-parts .part1{
-    width: 40%;
-    height: 60vh;
-    background: red;
+    width: 45%;
+    height: 70vh;
+    /* background: red; */
+}
+.group6-parts .part1 > img{
+    height: 400px;
+    z-index: 9;
+}
+.group6-parts .part1 > h2{
+    position: absolute;
+    writing-mode: vertical-lr;
+    font-size: 180px;
+    color: #333d01;
+    font-weight: 300;
+    opacity: 0.702;
+    text-transform: uppercase;
+    transform: translate(180deg);
+    margin-left: 20%;
 }
 .group6-parts .part2{
-    width: 60%;
-    height: 60vh;
-    background: rgb(169, 236, 15);
+    width: 55%;
+    height: 70vh;
+    /* background: rgb(169, 236, 15); */
+    padding-top: 9%;
+    padding-right: 8%;
 }
+.group6-parts .part2 .title{
+    font-size: 100px;
+    color: #333d01;
+    font-weight: 700;
+    text-align: right;
+}
+.group6-parts .part2 .subtitle{
+    font-size: 68px;
+    color: #333d01;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 50px;
+}
+.group6-parts .part2 .offer{
+    font-size: 87px;
+    color: #333d01;
+    font-weight: 500;
+    text-align: right;
+}
+
 /* group 7 */
 .group7{
     width: 100%;
