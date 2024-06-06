@@ -58,7 +58,7 @@ nav {
     height: 50px;
     cursor: pointer;
     align-items: center;
-    
+
 }
 
 .toggle-btn span {
@@ -102,31 +102,35 @@ nav {
     text-transform: uppercase;
     padding: 0 20px;
 }
-nav>span{
+
+nav>span {
     margin-right: 25%;
 }
-nav > span > img{
+
+nav>span>img {
     height: 70px;
     width: 70px;
     color: #333d01;
 }
-.social-icons{
-justify-content: end;
+
+.social-icons {
+    justify-content: end;
 
 }
+
 .social-icons>ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.social-icons>ul>li>img{
+.social-icons>ul>li>img {
     height: 35px;
     width: 45px;
     /* color: #314100; */
     font-size: 21px;
-    padding: 0 8px; 
-    transform: #314100 ;
+    padding: 0 8px;
+    transform: #314100;
 }
 
 .two-parts {
@@ -153,7 +157,8 @@ justify-content: end;
     letter-spacing: 1.2px;
     transform: rotate(180deg);
 }
-.part1 >span>img{
+
+.part1>span>img {
     border-radius: 50%;
     height: 400px;
     width: 400px;
@@ -215,7 +220,8 @@ justify-content: end;
     text-align: center;
     text-transform: uppercase;
 }
-.bottom-part{
+
+.bottom-part {
     /* justify-content: flex-end; */
     /* height: 33px; */
     width: 100%;
@@ -225,55 +231,381 @@ justify-content: end;
     align-items: center;
     padding: 0 60px;
 }
-.bottom-part .botton-para{
+
+.bottom-part .botton-para {
     font-size: 21px;
     color: #333d01;
     font-weight: 400;
     font-family: "Ubuntu", sans-serif;
     padding: 0 35px;
 }
-.bottom-part > span > i{
+
+.bottom-part>span>i {
     font-size: 40px;
     padding: 0 20px;
     color: #333d01;
 }
-.group2{
+
+.group2 {
     width: 100%;
     height: 100vh;
     background: #FFDF6C;
-    padding: 30px 60px;
+    padding: 35px 60px;
 }
-.grp2-part1{
-    width: 45%;
+
+.grp2-part1 {
+    width: 55%;
+    margin-bottom: 20px;
+    padding: 35px 20px;
 }
-.grp2-part1 .offer-txt{
+
+.grp2-part1 .offer-txt {
     font-size: 69px;
     color: #333d01;
     font-weight: 300;
     text-transform: uppercase;
     /* text-align: center; */
 }
-.grp2-part1 .burger{
+
+.grp2-part1 .burger {
     font-size: 112px;
     color: #333d01;
     font-weight: 700;
     text-transform: uppercase;
 }
-.grp2-part1 .para{
+
+.grp2-part1 .para {
     font-size: 25px;
     color: #333d01;
     font-weight: 400;
+    margin-bottom: 20px;
 }
-.grp2-part1 .promo-txt{
+
+.side-icons>span>i {
+    color: #333d01;
+    font-size: 50px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.grp2-part1 .promo-txt {
     font-size: 53px;
     font-weight: 400;
     color: #333d01;
+    margin-bottom: 15px;
 }
-.grp2-part1 .bottom-para{
+
+.grp2-part1 .bottom-para {
     font-size: 25px;
     color: #333d01;
     font-weight: 400;
+
 }
-.grp2-part2{
+
+.group2-parts {
+    display: flex;
+    padding: 40px 60px;
+}
+
+.grp2-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 45%;
+    padding: 35px 20px;
+}
+
+.grp2-part2>h3 {
+    opacity: 0.702;
+    font-size: 174px;
+    color: #333d01;
+    font-weight: 300;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.grp2-part2>img {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+.group3 {
+    height: 100vh;
+    width: 100%;
+    background: #ffd54d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group3-parts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.group3-parts .part1 {
+    /* background: red; */
+    width: 20%;
+    height: 85vh;
+}
+
+/* .group3-parts .part1 .vertical-text{
+
+} */
+
+.group3-parts .part2 {
+    /* background: green; */
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+/* .group3-parts .part2 .vertical-text{
+
+} */
+.group3-parts .part2 .title {
+    font-size: 64px;
+    color: #333d01;
+    font-weight: 300;
+}
+
+.group3-parts .part2 .subtitle {
+    font-size: 119px;
+    color: #333d01;
+    font-weight: 700;
+}
+
+.group3-parts .part2>span>img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.group3-parts .part3 {
+    /* background: blue; */
+    width: 20%;
+    height: 85vh;
+}
+
+/* .group3-parts .part3 .vertical-text{
+    
+} */
+.bottom-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-options>p {
+    font-size: 41px;
+    color: #333d01;
+    font-weight: 300;
+    padding: 0 10px;
+}
+
+.bottom-options>span>i {
+    font-size: 50px;
+    color: #333d01;
+    padding: 0 30px;
+}
+
+.group4 {
+    width: 100%;
+    height: 100vh;
+    background: #ffd54d;
+    
+}
+.group4 .group4-parts{
+    display: flex;
+}
+.group4 .group4-parts .part1 {
+    width: 30%;
+    height: 100vh;
+    /* background: red; */
+    flex-direction: column;
+    padding: 5% 8%;
+}
+.group4 .group4-parts .part1 > span .im1{
+    margin-top: 10%;
+    height: 150px;
+    width: 300px;
+    border: transparent;
+}.group4-parts .part1 > span .im2{
+    margin-top: 15%;
+    border: transparent;
+    height: 350px;
+    width: 350px;
+}
+
+.group4 .group4-parts .part2 {
+    width: 70%;
+    height: 100vh;
+    /* background: gold; */
+    padding: 5% 5%;
+}
+
+.group4-parts .part2 .title{
+    font-size: 62px;
+    color: #333d01;
+    font-weight: 400;
+    text-align: right;
+}
+.group4-parts .part2 .subtitle{
+    font-size: 120px;
+    text-align: right;
+}
+.group4-parts .part2 .para{
+    font-size: 25px;
+    color: #333d01;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.group4-parts .part2 .offer{
+font-size: 80px;
+color: #333d01;
+font-weight: 500;
+text-align: right;
+margin-bottom: 40px;
+}
+.group4-parts .part2 .next-btn{
+    font-size: 28px;
+    color: #ffd54d;
+    background: #333d01;
+    font-weight: 500;
+    padding: 5px 50px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: 75%;
+}
+
+/* group 5 */
+.group5{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffd54d;
+}
+.group5-parts{
+ display: flex;  
+}
+.group5-parts .part1{
+    width: 38%;
+    height: 100vh;
+   /* background-color: red; */
+
+}
+.group5-parts .part1 .title{
+    font-size: 110px;
+    color: #333d01;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+.group5-parts .part1 .subtitle{
+    font-size: 50px;
+    color: #333d01;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.group5-parts .part1 .sale{
+    font-size: 58px;
+    color: #333d01;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.group5-parts .part1 .next-btn{
+    border: 3px solid #333d01;
+    border-radius: 50px;
+    padding: 5px 50px;
+    color: #333d01;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+.group5-parts .part1 .para{
+    font-size: 25px;
+    color: #333d01;
+    font-weight: 400;
+    margin-top: 60px;
+}
+.group5-parts .part2 > h2{
+    padding-top: 100px;
+    position: absolute;
+    writing-mode: vertical-lr;
+    font-size: 178px;
+    color: #333d01;
+    font-weight: 300;
+    opacity: 0.702;
+    text-transform: uppercase;
+    transform: translate(180deg);
+}
+.group5-parts .part2 > img{
+    padding-top: 12%;
+    padding-left: 130px;
+    height: 500px;
+    /* width: 400px; */
+    position: absolute;
+}
+/* group 6 */
+.group6{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFDF6C;
+}
+.group6 .para{
+    font-size: 29px;
+    color: #333d01;
+    font-weight: 400;
+    text-align: right;
+}
+.group6 .next-btn{
+    /* border: 3px solid #333d01; */
+    border: none;
+    border-radius: 50px;
+    padding: 5px 50px;
+    color: #ffd54d;
+    background-color: #333d01;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+.group6-parts{
+    display: flex;
+}
+.group6-parts .part1{
+    width: 40%;
+    height: 60vh;
+    background: red;
+}
+.group6-parts .part2{
+    width: 60%;
+    height: 60vh;
+    background: rgb(169, 236, 15);
+}
+/* group 7 */
+.group7{
+    width: 100%;
+    height: 100vh;background-color: #ffd54d;
+}
+/* group 8 */
+.group8{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFDF6C;
+}
+/* group 9 */
+.group9{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffd54d;
 }
