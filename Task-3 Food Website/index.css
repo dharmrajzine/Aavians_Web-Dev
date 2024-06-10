@@ -5,22 +5,22 @@
     font-family: "Ubuntu", sans-serif;
 }
 
-html,
+/* html,
 body {
     width: 100%;
     height: 100vh;
-}
+} */
 
-/* Group 1 CSS */
+/* Section header */
 
-.group1 {
+.header {
     width: 100%;
     height: 100vh;
 }
 
 .top-nav {
     width: 100%;
-    height: 9%;
+    height: 10vh;
     background: #314100;
     display: flex;
     align-items: center;
@@ -36,83 +36,77 @@ body {
     font-weight: 400;
 }
 
-.groud1-body {
+.header-body {
     width: 100%;
-    height: 91%;
+    height: 90vh;
     background-color: #fed53c;
 }
 
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 10px 50px;
-}
-
-.nav-part1 {
-    display: flex;
-    align-items: center;
-}
-
-.toggle-btn {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    align-items: center;
-
-}
-
-.toggle-btn span {
-    position: absolute;
-    top: 40%;
-    left: 0;
-    width: 38px;
-    height: 2px;
-    background: #314100;
-    transition: 1s;
     text-align: center;
-    align-items: center;
+    padding: 0.5% 5%;
 }
 
-.toggle-btn span:nth-child(2) {
-    top: 50%;
-    width: 38px;
+.line {
+    line-height: 2px;
 }
 
-.toggle-btn span:nth-child(3) {
-    top: 60%;
+.line-1 {
+    height: 2px;
     width: 38px;
+    background: #314100;
+    display: inline-block;
+}
+
+.line-2 {
+    height: 2px;
+    width: 38px;
+    background: #314100;
+    display: inline-block;
+}
+
+.line-3 {
+    height: 2px;
+    width: 38px;
+    background: #314100;
+    display: inline-block;
+}
+
+.menu-options {
+    margin-left: 25px;
+    text-align: center;
 }
 
 .menu-options>ul {
     display: flex;
-    align-items: center;
     list-style: none;
-    text-align: center;
+    align-items: center;
 }
 
-.menu-options>ul>li {
+.menu-options>ul>li a {
     font-size: 21px;
     color: #314100;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 0 20px;
+    padding: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-nav>span {
-    margin-right: 15%;
+nav span {
+    margin-left: 60px;
 }
 
 nav>span>img {
-    height: 85px;
-    color: #333d01;
+    height: 80px;
 }
 
 .social-icons {
-    justify-content: end;
-    padding: 5px 10px;
+    margin-left: 22%;
+    padding: 0 10px;
 }
 
 .social-icons>ul {
@@ -241,9 +235,9 @@ nav>span>img {
     color: #333d01;
 }
 
-/* Group 2 CSS */
+/* section 2 CSS */
 
-.group2 {
+#offer {
     width: 100%;
     height: 100vh;
     background: #FFDF6C;
@@ -329,9 +323,9 @@ nav>span>img {
     z-index: 9;
 }
 
-/* Group 3 CSS */
+/* section 3 CSS */
 
-.group3 {
+#menu {
     height: 100vh;
     width: 100%;
     background: #ffd54d;
@@ -431,25 +425,25 @@ nav>span>img {
 }
 
 /* Group 4 css */
-.group4 {
+#promotion {
     width: 100%;
     height: 100vh;
     background: #ffd54d;
 
 }
 
-.group4 .group4-parts {
+#promotion .group4-parts {
     display: flex;
 }
 
-.group4 .group4-parts .part1 {
+#promotion .group4-parts .part1 {
     width: 45%;
     height: 100vh;
     flex-direction: column;
     padding: 5% 8%;
 }
 
-.group4 .group4-parts .part1>span .im1 {
+#promotion .group4-parts .part1>span .im1 {
     height: 250px;
 }
 
@@ -459,7 +453,7 @@ nav>span>img {
     height: 350px;
 }
 
-.group4 .group4-parts .part2 {
+#promotion .group4-parts .part2 {
     width: 55%;
     height: 100vh;
     padding-top: 5%;
@@ -510,7 +504,7 @@ nav>span>img {
 }
 
 /* group 5 */
-.group5 {
+#service {
     width: 100%;
     height: 100vh;
     background-color: #ffd54d;
@@ -592,8 +586,15 @@ nav>span>img {
     height: 500px;
     z-index: 99;
 }
-
-.group5 .dots {
+.group5-parts .part2 .imgss{
+    position: absolute;
+    margin-right: 50px;
+    margin-top: 10%;
+}
+.group5-parts .part2 .imgss >img{
+    height: 100px;
+}
+#service .dots {
     height: 15vh;
     width: 100%;
     display: flex;
@@ -601,15 +602,15 @@ nav>span>img {
     justify-content: center;
 }
 
-.group5 .dots>span {
+#service .dots>span {
     margin: 0 8px;
 }
 
-.group5 .dots>span:nth-child(3) {
+#service .dots>span:nth-child(3) {
     background: #333d01;
 }
 
-.group5 .dots .dot {
+#service .dots .dot {
     height: 25px;
     width: 25px;
     border: 3px solid #333d01;
@@ -618,20 +619,20 @@ nav>span>img {
 }
 
 /* group 6 */
-.group6 {
+#offer-two {
     width: 100%;
     height: 100vh;
     background-color: #FFDF6C;
 
 }
 
-.group6 .bottom-part {
+#offer-two .bottom-part {
     width: 100%;
     height: 30vh;
     flex-direction: column;
 }
 
-.group6 .bottom-part .para {
+#offer-two .bottom-part .para {
     font-size: 21px;
     color: #333d01;
     font-weight: 400;
@@ -716,7 +717,7 @@ nav>span>img {
 }
 
 /* group 7 */
-.group7 {
+#offer-three {
     width: 100%;
     height: 100vh;
     background-color: #ffd54d;
@@ -796,7 +797,7 @@ nav>span>img {
 }
 
 /* group 8 */
-.group8 {
+#contact {
     width: 100%;
     height: 100vh;
     background-color: #FFDF6C;
@@ -890,7 +891,7 @@ nav>span>img {
 }
 
 /* group 9 */
-.group9 {
+#about {
     width: 100%;
     height: 100vh;
     background-color: #ffd54d;
@@ -986,6 +987,7 @@ nav>span>img {
     height: 8vh;
     background: #314100;
 }
-/* @media only screen and (max-width:770px){
 
-} */
+@media only screen and (max-width:770px){
+
+}
